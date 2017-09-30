@@ -14,3 +14,4 @@ alert(teste);
 
 let t: string = "oii";
 t = 4;
+//tsc

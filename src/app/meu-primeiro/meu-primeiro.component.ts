@@ -13,7 +13,7 @@ export class MeuPrimeiroComponent implements OnInit {
   }
 
   teste = console.log("Testado")
-  ola = alert("Oi tudo bem?");
+  ola = "Oi tudo bem?";//alert("Oi tudo bem?");
 
 
 }

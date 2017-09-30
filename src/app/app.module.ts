@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
-import { PrivadoModule } from './privado/privado.module';
+import { ModuloLoginModule } from './modulo-login/modulo-login.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { PrivadoModule } from './privado/privado.module';
   ],
   imports: [
     BrowserModule,
-    PrivadoModule
+    ModuloLoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
